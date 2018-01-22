@@ -14,6 +14,7 @@
 	@import 'partials/free-quote';
 
 	@import 'pages/about-us';
+	@import 'pages/get-a-quote';
 }
 
 @include foundation-global-styles;
@@ -63,3 +64,4 @@
 @include motion-ui-animations;
 
 @import 'components/overrides';
+@import url('https://fonts.googleapis.com/css?family=Pathway+Gothic+One');
