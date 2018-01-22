@@ -15,4 +15,19 @@
     {{> body}}
     <script src="{{root}}assets/js/app.js"></script>
   </body>
+  <script>
+      function setBodyId() {
+          document.body.id = document.getElementById('bodyID').className;
+      }
+      window.onload = setBodyId;
+  </script>
+  <style>
+    body#home .home-nav,
+    body#get-a-quote .quote-nav,
+    body#gallery .gallery-nav,
+    body#contact-us .contact-nav,
+    body#about-us .about-nav{
+      background-color: #000;
+    }
+  </style>
 </html>
