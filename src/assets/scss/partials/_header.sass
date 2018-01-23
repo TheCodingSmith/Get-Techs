@@ -10,11 +10,16 @@ header
 		right: 10px
 
 		p
+			font-size: 15px
 			margin: 0
-			font-size: 12px
 			text-align: right
 			color: $color-white
-
+		@media only screen and (min-width: 40em)
+			p
+				font-size: 18px
+		@media only screen and (min-width: 64em)
+			p
+				font-size: 22px
 
 .top-bar ul,
 .top-bar
@@ -27,3 +32,6 @@ header
 			background-color: $color-black
 			a
 				color: $color-hover-gray
+
+	.menu
+		justify-content: center
