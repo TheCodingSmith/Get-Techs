@@ -1,0 +1,23 @@
+<div class="column galleryInfo">
+  <div class="row">
+
+    <div class="column large-6 medium-12">
+      {{#if getTechs.gallery}}
+      {{#each getTechs.gallery.offers}}
+        <span><i class="fa fa-check-square-o" aria-hidden="true"></i>{{this.point}}</span>
+      {{/each}}
+      {{/if}}
+    </div>
+
+    <div class="column large-6 medium-12">
+      {{#if getTechs.gallery}}
+      {{#each getTechs.gallery.market}}
+        <span><i class="fa fa-check-square-o" aria-hidden="true"></i>{{this.point}}</span>
+      {{/each}}
+      {{/if}}
+      <img src="../assets/img/satisfaction.png" alt="">
+    </div>
+
+  </div>
+
+</div>

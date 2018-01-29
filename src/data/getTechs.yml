@@ -1,1 +1,36 @@
 ---
+  gallery:
+    offers:
+      -
+        point: 'A reliable, respectful, and hard-working staff'
+      -
+        point: 'Superior workmanship by means of cutting-edge equipment, intense training processes, and highly skilled team members'
+      -
+        point: 'Value-added services'
+      -
+        point: 'Customized maintenance packages'
+      -
+        point: 'Environmentally compliant cleaning/blasting procedures'
+      -
+        point: 'OSHA compliant safety procedures'
+      -
+        point: 'Thorough and timely communication'
+      -
+        point: 'English speaking crew leaders'
+      -
+        point: 'A professionally uniformed staff'
+      -
+        point: 'Industry leading insurance policies'
+    market:
+      -
+        point: 'Discussing Homeowners'
+      -
+        point: 'Contractors & Builders'
+      -
+        point: 'Property Management Firms'
+      -
+        point: 'Restaraunt & Local Businesses'
+      -
+        point: 'Property Management Firms'
+      -
+        point: 'Municipalities'
