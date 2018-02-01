@@ -10,6 +10,15 @@
 			<img src="assets/img/GetTechs-Logo.png">
 		</a>
 	</div>
-	{{>navigation}}
-	{{>freeQuote}}
+	{{> navigation}}
+	
+	<!-- If the page is the index, show the big FreeQuote partial -->
+	{{#ifpage 'index'}}
+		{{> freeQuote}}
+	{{/ifpage}}
+
+	<!-- If the page is NOT the index, show the small FreeQuote partial -->
+	{{#unlesspage 'index'}}
+	  {{> freeQuoteSmall}}
+	{{/unlesspage}}
 </header>
