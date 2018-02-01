@@ -1,5 +1,4 @@
 <header>
-
 	<div class="contact">
 		<p><a href="tel:+1(909)343-5581">(909)343-5581</a></p>
 		<p>Hours: M-F 8AM-5PM</p>
@@ -7,9 +6,18 @@
 
 	<div class="logo">
 		<a href="/index.html">
-			<img src="assets/img/GetTechs-Logo.png">
+			<img src="{{root}}assets/img/GetTechs-Logo.png">
 		</a>
 	</div>
-	{{>navigation}}
-	{{>freeQuote}}
+	{{> navigation}}
+	
+	<!-- If the page is the index, show the big FreeQuote partial -->
+	{{#ifpage 'index'}}
+		{{> freeQuote}}
+	{{/ifpage}}
+
+	<!-- If the page is NOT the index, show the small FreeQuote partial -->
+	{{#unlesspage 'index'}}
+	  {{> freeQuoteSmall}}
+	{{/unlesspage}}
 </header>
