@@ -1,5 +1,5 @@
 .quoteSideInfo
-  display: flex
+  display: inline-block
   background-color: $color-bg-gray
   padding: 15px
   font-size: 12px
@@ -12,6 +12,11 @@
   .column
     border-right: 1px solid $color-orange
     padding: 15px
+    @media screen and (max-width: 39.9375em)
+      border-bottom: 1px solid $color-orange
+      border-right: none
+      &:nth-child(2)
+        border-bottom: 0px
     &:nth-child(2)
       border-right: none
     .column
